@@ -1,0 +1,5 @@
+node_modules/
+
+.vscode/setting.json
+.idea
+.DS_Store
