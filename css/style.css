@@ -13,7 +13,7 @@
     --color-gray: #1b1e26;
 
     /* size */
-    --size-max-width : 1200px;
+    --size-max-width: 1200px;
 }
 
 * {
@@ -25,7 +25,7 @@ body {
     margin: 0;
 }
 
-h1,h2,h3,p,ul {
+h1, h2, h3, p, ul {
     margin: 0;
 }
 
@@ -74,7 +74,7 @@ button:focus {
 /* REST */
 
 .header {
-    background-color:var(--color-primary);
+    background-color: var(--color-primary);
     position: fixed;
     top: 0;
     width: 100%;
@@ -103,7 +103,7 @@ button:focus {
 
 .header__menu {
     display: flex;
-    gap : 4px;
+    gap: 4px;
 }
 
 .header__menu__item {
@@ -177,7 +177,7 @@ button:focus {
     color: var(--color-text);
     border-radius: 1rem;
     cursor: default;
-    box-shadow: 0 8px 30px rgb(0,0,0,0.3);
+    box-shadow: 0 8px 30px rgb(0, 0, 0, 0.3);
 }
 
 .major__icon {
@@ -203,17 +203,17 @@ button:focus {
 
 .job {
     display: flex;
-    align-items: center ;
-    gap : 8px;
+    align-items: center;
+    gap: 8px;
     margin-bottom: 1rem;
 }
 
 .job__logo {
-  width: 100px;
-  height: 100px;
-  object-fit: contain;
-  border-radius: 16px;
-  background-color: #f4f4f4;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 16px;
+    background-color: #f4f4f4;
 }
 
 .job__name {
@@ -236,7 +236,7 @@ button:focus {
     margin: 2rem 3rem;
     border-radius: 8px;
     overflow: hidden;
-    
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
 }
 
 .skills__title {
@@ -252,7 +252,7 @@ button:focus {
 }
 
 .skills__tools {
-     padding: 1rem;   
+    padding: 1rem;
 }
 
 .skills__etc {
@@ -293,7 +293,7 @@ button:focus {
     display: flex;
     justify-content: center;
     margin: 2.5rem;
-    gap:  1rem;
+    gap: 1rem;
 }
 
 .category {
@@ -334,7 +334,7 @@ button:focus {
 
 .projects {
     display: grid;
-    grid-template-columns: repeat(4  ,1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 1rem;
 }
@@ -348,8 +348,8 @@ button:focus {
 }
 
 .project__img {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .project__metadata {
@@ -405,13 +405,13 @@ button:focus {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    box-shadow: 0 8px 30px rgb(0,0,0,0.12);
+    box-shadow: 0 8px 30px rgb(0, 0, 0, 0.12);
 }
 
 .testimonial__bubble {
     padding: 1rem;
     border-radius: 8px;
-    box-shadow: 0 8px 30px rgb(0,0,0,0.12);
+    box-shadow: 0 8px 30px rgb(0, 0, 0, 0.12);
 }
 
 .testimonial__bubble__name {
@@ -452,4 +452,84 @@ button:focus {
 
 .contact__link:hover {
     color: var(--color-accent);
+}
+
+@media screen and (max-width : 768px) {
+    .section {
+        padding: 3rem 2rem;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .description {
+        font-size: 1rem;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .header__menu {
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem 4rem;
+        gap: 1rem;
+    }
+
+    .header__nav {
+        width: 100%;
+    }
+
+    .home__title {
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .majors {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .major {
+        max-width: 25rem;
+    }
+
+    .job {
+        justify-content: center;
+    }
+
+    .skills {
+        grid-template-columns: 1fr;
+    }
+
+    .categories {
+        flex-direction: column;
+    }
+
+    .category {
+        width: 100%;
+    }
+
+    .projects {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .testimonial {
+        flex-direction: column;
+    }
+
+    .testimonial:nth-child(even) .testimonial__img {
+        order: 0;
+    }
+
+    .arrow-up {
+        font-size: 2rem;
+        width: 3rem;
+        height: 3rem;
+        bottom: 1.5rem;
+        right: 1.5rem;
+    }
 }
