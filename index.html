@@ -2,77 +2,152 @@
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
     <title>Donghwi&#39;s PortFolio</title>
-    <meta name="description" content="원동휘 PortFolio" />
-    <meta name="author" content="원동휘" />
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <meta
+      name="description"
+      content="원동휘 PortFolio" />
+    <meta
+      name="author"
+      content="원동휘" />
+    <link
+      rel="shortcut icon"
+      href="images/favicon.ico"
+      type="image/x-icon" />
 
-    <meta property="og:title" content="원동휘의 포트폴리오" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="todo url" />
-    <meta property="og:image" content="todo imageUrl" />
+    <meta
+      property="og:title"
+      content="원동휘의 포트폴리오" />
+    <meta
+      property="og:type"
+      content="website" />
+    <meta
+      property="og:url"
+      content="todo url" />
+    <meta
+      property="og:image"
+      content="todo imageUrl" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet" />
+
+    <script
+      src="https://kit.fontawesome.com/1c76bf7d11.js"
+      crossorigin="anonymous"></script>
+
+    <link
       rel="stylesheet"
-    />
+      href="css/style.css" />
 
-    <script src="https://kit.fontawesome.com/1c76bf7d11.js" crossorigin="anonymous"></script>
-
-    <link rel="stylesheet" href="css/style.css" />
-
-    <script src="src/main.js" defer></script>
+    <script
+      src="src/main.js"
+      defer></script>
   </head>
 
   <body>
     <header class="header">
       <div class="header__logo">
-        <img src="images/favicon.ico" alt="logo" class="header__logo__img" />
+        <img
+          src="images/favicon.ico"
+          alt="logo"
+          class="header__logo__img" />
         <h1 class="header__logo__title"><a href="#">원동휘</a></h1>
       </div>
       <nav class="header__nav">
         <ul class="header__menu">
           <li>
-            <a class="header__menu__item active" href="#home">Home</a>
+            <a
+              class="header__menu__item active"
+              href="#home">
+              Home
+            </a>
           </li>
           <li>
-            <a class="header__menu__item" href="#about">About</a>
+            <a
+              class="header__menu__item"
+              href="#about">
+              About
+            </a>
           </li>
           <li>
-            <a class="header__menu__item" href="#skills">Skills</a>
+            <a
+              class="header__menu__item"
+              href="#skills">
+              Skills
+            </a>
           </li>
           <li>
-            <a class="header__menu__item" href="#work">My work</a>
+            <a
+              class="header__menu__item"
+              href="#work">
+              My work
+            </a>
           </li>
           <li>
-            <a class="header__menu__item" href="#testimonial">Testimonial</a>
+            <a
+              class="header__menu__item"
+              href="#testimonial">
+              Testimonial
+            </a>
           </li>
           <li>
-            <a class="header__menu__item" href="#contact">Contact</a>
+            <a
+              class="header__menu__item"
+              href="#contact">
+              Contact
+            </a>
           </li>
         </ul>
       </nav>
+      <button
+        class="header__toggle"
+        aria-label="navigation menu toggle">
+        <i class="fa-solid fa-bars"></i>
+      </button>
     </header>
 
     <main>
       <section id="home">
         <div class="home__container">
-          <img class="home__avatar" src="images/profile.png" alt="profile" />
+          <img
+            class="home__avatar"
+            src="images/profile.png"
+            alt="profile" />
           <h2 class="home__title">
-            Hello <br />I&#39;m <strong class="home__title--strong">Front-end Developer</strong>, 원동휘
+            Hello
+            <br />
+            I&#39;m
+            <strong class="home__title--strong">Front-end Developer</strong>
+            , 원동휘
           </h2>
           <p class="home__description">UI/UX를 중요하게 여기는 개발자</p>
-          <a class="home__contact" href="#contact">Contact Me</a>
+          <a
+            class="home__contact"
+            href="#contact">
+            Contact Me
+          </a>
         </div>
       </section>
 
-      <section id="about" class="section max-container">
+      <section
+        id="about"
+        class="section max-container">
         <h2 class="title">About me</h2>
         <p class="description">열정적인 Front-End Developer입니다.</p>
-        <p class="description">최신기술에 관심이 많고 주로 Next.js/React.js와 TypeScript를 가장 많이 사용합니다.</p>
+        <p class="description">
+          최신기술에 관심이 많고 주로 Next.js/React.js와 TypeScript를 가장 많이
+          사용합니다.
+        </p>
         <ul class="majors">
           <li class="major">
             <i class="fa-brands fa-html5 major__icon"></i>
@@ -92,21 +167,30 @@
         </ul>
         <ul class="jobs">
           <li class="job">
-            <img class="job__logo" src="images/jobs/CNR_logo.png" alt="씨엔알리서치" />
+            <img
+              class="job__logo"
+              src="images/jobs/CNR_logo.png"
+              alt="씨엔알리서치" />
             <div>
               <p class="job__name">C&R RESEARCH</p>
               <p class="job__period">2020/01 ~ 2021/01</p>
             </div>
           </li>
           <li class="job">
-            <img class="job__logo" src="images/jobs/TripstoreLogo.png" alt="엑스트라이버(트립스토어)" />
+            <img
+              class="job__logo"
+              src="images/jobs/TripstoreLogo.png"
+              alt="엑스트라이버(트립스토어)" />
             <div>
               <p class="job__name">엑스트라이버(트립스토어)</p>
               <p class="job__period">2021/05 ~ 2022/05</p>
             </div>
           </li>
           <li class="job">
-            <img class="job__logo" src="images/jobs/PetFriendsLogo.png" alt="펫프렌즈" />
+            <img
+              class="job__logo"
+              src="images/jobs/PetFriendsLogo.png"
+              alt="펫프렌즈" />
             <div>
               <p class="job__name">펫프렌즈</p>
               <p class="job__period">2022/05 ~ ing</p>
@@ -115,52 +199,86 @@
         </ul>
       </section>
 
-      <section id="skills" class="section">
+      <section
+        id="skills"
+        class="section">
         <div class="max-container">
           <h2 class="title">My Skills</h2>
           <p class="description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis aut consequuntur aliquam omnis
-            architecto asperiores alias, reprehenderit exercitationem est. Ducimus officiis facere recusandae voluptatem
-            adipisci molestiae consequuntur delectus obcaecati consequatur?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+            aut consequuntur aliquam omnis architecto asperiores alias,
+            reprehenderit exercitationem est. Ducimus officiis facere recusandae
+            voluptatem adipisci molestiae consequuntur delectus obcaecati
+            consequatur?
           </p>
           <div class="skills">
             <section class="skills__coding">
               <h3 class="skills__title">Coding Skills</h3>
               <ul>
                 <li class="bar">
-                  <div class="bar__metadata"><span>HTML</span><span>98%</span></div>
+                  <div class="bar__metadata">
+                    <span>HTML</span>
+                    <span>98%</span>
+                  </div>
                   <div class="bar__bg">
-                    <div class="bar__value" style="width: 98%"></div>
+                    <div
+                      class="bar__value"
+                      style="width: 98%"></div>
                   </div>
                 </li>
                 <li class="bar">
-                  <div class="bar__metadata"><span>CSS</span><span>95%</span></div>
+                  <div class="bar__metadata">
+                    <span>CSS</span>
+                    <span>95%</span>
+                  </div>
                   <div class="bar__bg">
-                    <div class="bar__value" style="width: 95%"></div>
+                    <div
+                      class="bar__value"
+                      style="width: 95%"></div>
                   </div>
                 </li>
                 <li class="bar">
-                  <div class="bar__metadata"><span>Javascript</span><span>90%</span></div>
+                  <div class="bar__metadata">
+                    <span>Javascript</span>
+                    <span>90%</span>
+                  </div>
                   <div class="bar__bg">
-                    <div class="bar__value" style="width: 90%"></div>
+                    <div
+                      class="bar__value"
+                      style="width: 90%"></div>
                   </div>
                 </li>
                 <li class="bar">
-                  <div class="bar__metadata"><span>Typescript</span><span>90%</span></div>
+                  <div class="bar__metadata">
+                    <span>Typescript</span>
+                    <span>90%</span>
+                  </div>
                   <div class="bar__bg">
-                    <div class="bar__value" style="width: 90%"></div>
+                    <div
+                      class="bar__value"
+                      style="width: 90%"></div>
                   </div>
                 </li>
                 <li class="bar">
-                  <div class="bar__metadata"><span>React</span><span>90%</span></div>
+                  <div class="bar__metadata">
+                    <span>React</span>
+                    <span>90%</span>
+                  </div>
                   <div class="bar__bg">
-                    <div class="bar__value" style="width: 90%"></div>
+                    <div
+                      class="bar__value"
+                      style="width: 90%"></div>
                   </div>
                 </li>
                 <li class="bar">
-                  <div class="bar__metadata"><span>NodeJs</span><span>78%</span></div>
+                  <div class="bar__metadata">
+                    <span>NodeJs</span>
+                    <span>78%</span>
+                  </div>
                   <div class="bar__bg">
-                    <div class="bar__value" style="width: 78%"></div>
+                    <div
+                      class="bar__value"
+                      style="width: 78%"></div>
                   </div>
                 </li>
               </ul>
@@ -187,22 +305,44 @@
         </div>
       </section>
 
-      <section id="work" class="section">
+      <section
+        id="work"
+        class="section">
         <div class="max-container">
           <h2 class="title">My work</h2>
           <p class="description">Projects</p>
           <ul class="categories">
             <li>
-              <button class="category category--selected">All<span class="category__count">14</span></button>
+              <button class="category category--selected">
+                All
+                <span class="category__count">14</span>
+              </button>
             </li>
             <li>
-              <button class="category">React / Next.js<span class="category__count" an>8</span></button>
+              <button class="category">
+                React / Next.js
+                <span
+                  class="category__count"
+                  an>
+                  8
+                </span>
+              </button>
             </li>
             <li>
-              <button class="category">front + Node.js(express)<span class="category__count" an> 2</span></button>
+              <button class="category">
+                front + Node.js(express)
+                <span
+                  class="category__count"
+                  an>
+                  2
+                </span>
+              </button>
             </li>
             <li>
-              <button class="category">Vanilla js<span class="category__count">4</span></button>
+              <button class="category">
+                Vanilla js
+                <span class="category__count">4</span>
+              </button>
             </li>
           </ul>
           <ul class="projects">
@@ -210,18 +350,28 @@
               <a
                 href="https://github.com/wondonghwi/Twitter-next.js-node.js"
                 target="_blank"
-                data-type="front-end-deepening"
-              >
-                <img src="images/projects/twitter_image.png" alt="twitter_next" class="project__img" />
+                data-type="front-end-deepening">
+                <img
+                  src="images/projects/twitter_image.png"
+                  alt="twitter_next"
+                  class="project__img" />
                 <div class="project__metadata">
-                  <h3 class="project__title">풀스택으로 트위터 만들고 AWS배포</h3>
+                  <h3 class="project__title">
+                    풀스택으로 트위터 만들고 AWS배포
+                  </h3>
                   <p>make Next.js + Express</p>
                 </div>
               </a>
             </li>
             <li class="project">
-              <a href="https://github.com/wondonghwi/Slack_React" target="_blank" data-type="front-end-deepening">
-                <img src="images/projects/slack_react.png" alt="slack_react" class="project__image" />
+              <a
+                href="https://github.com/wondonghwi/Slack_React"
+                target="_blank"
+                data-type="front-end-deepening">
+                <img
+                  src="images/projects/slack_react.png"
+                  alt="slack_react"
+                  class="project__image" />
                 <div class="project__metadata">
                   <h3 class="project__title">Slack 클론코딩</h3>
                   <span>make React + TypeScript + SWR + Socket.io</span>
@@ -233,9 +383,11 @@
               <a
                 href="https://github.com/wondonghwi/Blog_React-Node.js"
                 target="_blank"
-                data-type="front-end-deepening"
-              >
-                <img src="images/projects/react_blog.png" alt="react_blog" class="project__image" />
+                data-type="front-end-deepening">
+                <img
+                  src="images/projects/react_blog.png"
+                  alt="react_blog"
+                  class="project__image" />
                 <div class="project__metadata">
                   <h3 class="project__title">블로그 구현 Project</h3>
                   <span>make React + Redux-Saga + Node.js</span>
@@ -247,30 +399,50 @@
               <a
                 href="https://github.com/wondonghwi/Next.js_Github_Repository"
                 target="_blank"
-                data-type="front-end-deepening"
-              >
-                <img src="images/projects/next_blogRepo.png" alt="next.js_Repo" class="project__img" />
+                data-type="front-end-deepening">
+                <img
+                  src="images/projects/next_blogRepo.png"
+                  alt="next.js_Repo"
+                  class="project__img" />
                 <div class="project__metadata">
-                  <h3 class="project__title">Next.js로 Github Repo불러오는 프로젝트</h3>
+                  <h3 class="project__title">
+                    Next.js로 Github Repo불러오는 프로젝트
+                  </h3>
                   <span>make Next.js</span>
                 </div>
               </a>
             </li>
             <li class="project">
-              <a href="https://github.com/wondonghwi/Next.js_TodoList" target="_blank" data-type="front-end-deepening">
-                <img src="images/projects/next_todolist.png" alt="next_todolist" class="project__img" />
+              <a
+                href="https://github.com/wondonghwi/Next.js_TodoList"
+                target="_blank"
+                data-type="front-end-deepening">
+                <img
+                  src="images/projects/next_todolist.png"
+                  alt="next_todolist"
+                  class="project__img" />
                 <div class="project__metadata">
-                  <h3 class="project__title">Next.js로 TodoList 작성 Project</h3>
+                  <h3 class="project__title">
+                    Next.js로 TodoList 작성 Project
+                  </h3>
                   <span>make Next.js + StyledComponents</span>
                 </div>
               </a>
             </li>
 
             <li class="project">
-              <a href="https://github.com/wondonghwi/react_firebase" target="_blank" data-type="front-end-deepening">
-                <img src="images/projects/react_firebase.png" alt="react_firebase" class="project__img" />
+              <a
+                href="https://github.com/wondonghwi/react_firebase"
+                target="_blank"
+                data-type="front-end-deepening">
+                <img
+                  src="images/projects/react_firebase.png"
+                  alt="react_firebase"
+                  class="project__img" />
                 <div class="project__metadata">
-                  <h3 class="project__title">firebase 이용한 onlyFront Project</h3>
+                  <h3 class="project__title">
+                    firebase 이용한 onlyFront Project
+                  </h3>
                   <span>make React + firebase</span>
                 </div>
               </a>
@@ -280,15 +452,15 @@
               <a
                 href="https://github.com/wondonghwi/Github_Lookup_TypeScript_Redux"
                 target="_blank"
-                data-type="front-end-deepening"
-              >
+                data-type="front-end-deepening">
                 <img
                   src="images/projects/react_typescript_redux.png"
                   alt="react_typescript_redux"
-                  class="project__img"
-                />
+                  class="project__img" />
                 <div class="project__metadata">
-                  <h3 class="project__title">Github 계정명으로 프로필 조회하기 Project</h3>
+                  <h3 class="project__title">
+                    Github 계정명으로 프로필 조회하기 Project
+                  </h3>
                   <span>make React + TypeScript + Redux</span>
                 </div>
               </a>
@@ -298,9 +470,11 @@
               <a
                 href="https://github.com/wondonghwi/TDD_TodoList_React-testing-library"
                 target="_blank"
-                data-type="front-end-deepening"
-              >
-                <img src="images/projects/react_tdd.png" alt="react_tdd" class="project__img" />
+                data-type="front-end-deepening">
+                <img
+                  src="images/projects/react_tdd.png"
+                  alt="react_tdd"
+                  class="project__img" />
                 <div class="project__metadata">
                   <h3 class="project__title">TDD로 만드는 React TodoList</h3>
                   <span>make React + TDD</span>
@@ -309,18 +483,30 @@
             </li>
 
             <li class="project">
-              <a href="https://github.com/wondonghwi/React_express_Dwitter" target="_blank" data-type="js-node">
-                <img src="images/projects/dwitter.png" alt="dwitter" class="project__img" />
+              <a
+                href="https://github.com/wondonghwi/React_express_Dwitter"
+                target="_blank"
+                data-type="js-node">
+                <img
+                  src="images/projects/dwitter.png"
+                  alt="dwitter"
+                  class="project__img" />
                 <div class="project__metadata">
                   <h3 class="project__title">Dwitter Project</h3>
-                  <span>make React + Express + Sequelize </span>
+                  <span>make React + Express + Sequelize</span>
                 </div>
               </a>
             </li>
 
             <li class="project">
-              <a href="https://github.com/wondonghwi/node.js_wetube" target="_blank" data-type="js-node">
-                <img src="images/projects/wetube.png" alt="wetube" class="project__img" />
+              <a
+                href="https://github.com/wondonghwi/node.js_wetube"
+                target="_blank"
+                data-type="js-node">
+                <img
+                  src="images/projects/wetube.png"
+                  alt="wetube"
+                  class="project__img" />
                 <div class="project__metadata">
                   <h3 class="project__title">Wetube Project</h3>
                   <span>pug(template)/VanillaJs/express/mongoDB</span>
@@ -332,9 +518,11 @@
               <a
                 href="https://github.com/wondonghwi/nextstep-js-vending-machine"
                 target="_blank"
-                data-type="vanilla-js"
-              >
-                <img src="images/projects/vending-machine_ui.png" alt="vending-machine" class="project__img" />
+                data-type="vanilla-js">
+                <img
+                  src="images/projects/vending-machine_ui.png"
+                  alt="vending-machine"
+                  class="project__img" />
                 <div class="project__metadata">
                   <h3 class="project__title">VendingMachine - nextstep</h3>
                   <span>make Vanilla.js + Cypress - Step4</span>
@@ -343,8 +531,14 @@
             </li>
 
             <li class="project">
-              <a href="https://github.com/wondonghwi/nextstep-js-racingcar" target="_blank" data-type="vanilla-js">
-                <img src="images/projects/racingCar_ui.png" alt="racing-car" class="project__img" />
+              <a
+                href="https://github.com/wondonghwi/nextstep-js-racingcar"
+                target="_blank"
+                data-type="vanilla-js">
+                <img
+                  src="images/projects/racingCar_ui.png"
+                  alt="racing-car"
+                  class="project__img" />
                 <div class="project__metadata">
                   <h3 class="project__title">RacingCar - nextstep</h3>
                   <span>make Vanilla.js + Cypress - Step3</span>
@@ -352,8 +546,14 @@
               </a>
             </li>
             <li class="project">
-              <a href="https://github.com/wondonghwi/nextstep-js-lotto" target="_blank" data-type="vanilla-js">
-                <img src="images/projects/lotto_ui.png" alt="lotto" class="project__img" />
+              <a
+                href="https://github.com/wondonghwi/nextstep-js-lotto"
+                target="_blank"
+                data-type="vanilla-js">
+                <img
+                  src="images/projects/lotto_ui.png"
+                  alt="lotto"
+                  class="project__img" />
                 <div class="project__metadata">
                   <h3 class="project__title">Lotto - nextstep</h3>
                   <span>make Vanilla.js + Cypress - Step2</span>
@@ -361,8 +561,14 @@
               </a>
             </li>
             <li class="project">
-              <a href="https://github.com/wondonghwi/nextstep-js-calculator" target="_blank" data-type="vanilla-js">
-                <img src="images/projects/calculator_ui.png" alt="calculator" class="project__img" />
+              <a
+                href="https://github.com/wondonghwi/nextstep-js-calculator"
+                target="_blank"
+                data-type="vanilla-js">
+                <img
+                  src="images/projects/calculator_ui.png"
+                  alt="calculator"
+                  class="project__img" />
                 <div class="project__metadata">
                   <h3 class="project__title">Calculator - nextstep</h3>
                   <span>make Vanilla.js + Cypress - Step1</span>
@@ -373,57 +579,104 @@
         </div>
       </section>
 
-      <section id="testimonial" class="section max-container">
+      <section
+        id="testimonial"
+        class="section max-container">
         <h2 class="title">Testimonial</h2>
         <p class="description">추천서를 써준사람들</p>
         <ul class="testimonials">
           <li class="testimonial">
-            <img src="images//profile.png" alt="people1" class="testimonial__img" />
+            <img
+              src="images//profile.png"
+              alt="people1"
+              class="testimonial__img" />
             <div class="testimonial__bubble">
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt a dolor ab fugiat totam, quo asperiores
-                est fuga? Porro cum enim minus cumque at! Eligendi voluptates in aliquid amet necessitatibus.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt a
+                dolor ab fugiat totam, quo asperiores est fuga? Porro cum enim
+                minus cumque at! Eligendi voluptates in aliquid amet
+                necessitatibus.
               </p>
-              <p><a href="#" class="testimonial__bubble__name">James</a> / Google</p>
+              <p>
+                <a
+                  href="#"
+                  class="testimonial__bubble__name">
+                  James
+                </a>
+                / Google
+              </p>
             </div>
           </li>
           <li class="testimonial">
-            <img src="images//profile.png" alt="people2" class="testimonial__img" />
+            <img
+              src="images//profile.png"
+              alt="people2"
+              class="testimonial__img" />
             <div class="testimonial__bubble">
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt a dolor ab fugiat totam, quo asperiores
-                est fuga? Porro cum enim minus cumque at! Eligendi voluptates in aliquid amet necessitatibus.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt a
+                dolor ab fugiat totam, quo asperiores est fuga? Porro cum enim
+                minus cumque at! Eligendi voluptates in aliquid amet
+                necessitatibus.
               </p>
-              <p><a href="#" class="testimonial__bubble__name">Jarry</a> / Google</p>
+              <p>
+                <a
+                  href="#"
+                  class="testimonial__bubble__name">
+                  Jarry
+                </a>
+                / Google
+              </p>
             </div>
           </li>
           <li class="testimonial">
-            <img src="images//profile.png" alt="people3" class="testimonial__img" />
+            <img
+              src="images//profile.png"
+              alt="people3"
+              class="testimonial__img" />
             <div class="testimonial__bubble">
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt a dolor ab fugiat totam, quo asperiores
-                est fuga? Porro cum enim minus cumque at! Eligendi voluptates in aliquid amet necessitatibus.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt a
+                dolor ab fugiat totam, quo asperiores est fuga? Porro cum enim
+                minus cumque at! Eligendi voluptates in aliquid amet
+                necessitatibus.
               </p>
-              <p><a href="#" class="testimonial__bubble__name">Kim</a> / Google</p>
+              <p>
+                <a
+                  href="#"
+                  class="testimonial__bubble__name">
+                  Kim
+                </a>
+                / Google
+              </p>
             </div>
           </li>
         </ul>
       </section>
 
       <aside>
-        <a class="arrow-up" href="#home" title="back to top">
+        <a
+          class="arrow-up"
+          href="#home"
+          title="back to top">
           <i class="fa-solid fa-arrow-up"></i>
         </a>
       </aside>
     </main>
 
-    <footer id="contact" class="section">
+    <footer
+      id="contact"
+      class="section">
       <div class="max-container">
         <h2 class="title">Let&#39;s talk</h2>
         <p class="description">donghwi1289@gmail.com</p>
         <ul class="contact__links">
           <li>
-            <a class="contact__link" href="https://github.com/wondonghwi" target="_blank" title="my github link">
+            <a
+              class="contact__link"
+              href="https://github.com/wondonghwi"
+              target="_blank"
+              title="my github link">
               <i class="fa-brands fa-github"></i>
             </a>
           </li>
@@ -432,8 +685,7 @@
               class="contact__link"
               href="https://www.linkedin.com/in/%EB%8F%99%ED%9C%98-%EC%9B%90-0652911a2/"
               target="_blank"
-              title="my linkedin link"
-            >
+              title="my linkedin link">
               <i class="fa-brands fa-linkedin"></i>
             </a>
           </li>
