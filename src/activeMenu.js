@@ -1,14 +1,7 @@
 'use strict';
 
 export const activeMenu = () => {
-  const sectionIds = [
-    '#home',
-    '#about',
-    '#skills',
-    '#work',
-    '#testimonial',
-    '#contact',
-  ];
+  const sectionIds = ['#home', '#about', '#skills', '#work', '#contact'];
 
   const sections = sectionIds.map((id) => document.querySelector(id));
   const navItems = sectionIds.map((id) =>
