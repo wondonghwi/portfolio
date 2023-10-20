@@ -44,13 +44,17 @@
     <script
       src="https://kit.fontawesome.com/1c76bf7d11.js"
       crossorigin="anonymous"></script>
-
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
     <link
       rel="stylesheet"
       href="css/style.css" />
 
     <script
       src="src/main.js"
+      type="module"
+      defer></script>
+    <script
+      src="src/type.js"
       type="module"
       defer></script>
   </head>
@@ -117,7 +121,10 @@
             class="home__avatar"
             src="images/profile.png"
             alt="profile" />
-          <h2 class="home__title">
+          <h2
+            class="home__title"
+            aria-label="Hello
+I'm Front-end Developer| , 원동휘">
             Hello
             <br />
             I&#39;m
