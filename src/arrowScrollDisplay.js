@@ -5,6 +5,9 @@ export const arrowScrollDisplay = () => {
   const homeHeight = home.getBoundingClientRect().height;
   const arrowUp = document.querySelector('.arrow-up');
 
+  arrowUp.style.opacity = 0;
+  arrowUp.style.pointerEvents = 'none';
+
   document.addEventListener('scroll', () => {
     const scrollPosition = window.scrollY;
     if (scrollPosition > homeHeight / 2) {
